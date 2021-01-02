@@ -7,12 +7,16 @@ body{
     overflow-x: hidden;
 }
 .navBar{
-    position: fixed; top: 5%; left: 71%;
+    position: fixed; top: 5%; left: 50%;
     z-index: 10;
-    width: 30%;
+    width: 50%;
     display: inline;
 }
 .une{
+    display: inline;
+    margin-left: 15%;
+}
+.propos{
     display: inline;
     margin-left: 15%;
 }
@@ -38,91 +42,20 @@ body{
     z-index: 2;
 }
 
-
-
-/*.shadow{
-    background-color: rgb(20, 20, 20);
-    height: 100vh;
+.news{
+    background-image: url(../images/accueil/fond.jpg);
+    height: 20vh;
     width: 100vw;
-    position: absolute; left: 6px;
-    -webkit-filter: blur(10px);
-    transition: all ease-in 0.4s;
-    z-index: 1;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    position: absolute; top: 100vh;
+    /*transition: all ease-in 0.4s;*/
+    z-index: 2;
 }
-.burger{
-    width: 1.5%;
-    position: absolute; top: 2%; right: 2%;
-    z-index: 10;
+.AlaUne{
+    width: 100%;
 }
-.unbis{
-    background-color: #DEFF06;
-    height: 100vh;
-    width: 25vw;
-    display: block; 
-    position: absolute; right: 0%;
-}
-.side1{
-    margin-left: 10%;
-}
-.side2{
-    margin-top: 15%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 2.5vw;
-}
-.tete{
-    width: 30%;
-    display: inline-block;
-    margin-left: 10%;
-}
-.lulu{
-    display: inline-block;
-    margin-bottom: 5%;
-}
-.side3{
-    width: 60%;
-    margin-left: 18%;
-    margin-right: 22%;
-    position: absolute; bottom: 15%;
-    display: inline-block;
-}
-.points{
-    width: 35%;
-}
-.points1{
-    width: 35%;
-    position: absolute; left: 32%;
-}
-.points2{
-    width: 35%;
-    position: absolute; left: 65%;
-}
-.side4{
-    width: 80%;
-    margin-left: 10%;
-    position: absolute; bottom: 0%;
-    
-}
-.boutton{
-    margin: 0%;
-}
-.side{
-    margin-left: 15%;
-    margin-top: 5%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.75vw;
-}
-.sidetext{
-    color: white;
-}
-.border{
-    border-radius: 20px;
-}
-.translate{
-    transform: translate(-25vw);
-    transition: all ease-in 0.4s;
-}*/
-
 /**menu**/
 .containMenu{
     display: block;
@@ -189,7 +122,7 @@ body{
 
 .fleche{
     width: 2%;
-    position: absolute; top: 82.5%; left: 3%;
+    position: absolute; top: 92.5%; left: 3%;
 }
 
 /**div image**/
@@ -217,7 +150,7 @@ body{
 .blackCover2{
     width: 26%;
     height: 30.5%;
-    position: absolute; bottom: 86%; right: 3.5%;
+    position: absolute; bottom: 85%; right: 3.5%;
     background: linear-gradient(to bottom right, rgba(255,255,255,.4), rgba(255,255,255,0));
     backdrop-filter: blur(2px);
     border-radius: 20px;
@@ -232,7 +165,7 @@ body{
     background-image: url(../images/accueil/fond.jpg);
     height: 100vh;
     width: 100vw;
-    position: absolute; top: 100vh;
+    position: absolute; top: 120vh;
     z-index: 2;
 }
 /*flamme*/
@@ -240,7 +173,7 @@ body{
     background-image: url(../images/accueil/fond.jpg);
     height: 100vh;
     width: 100vw;
-    position: absolute; top: 200vh;
+    position: absolute; top: 220vh;
     z-index: 2;
 }
 .containtrois{
@@ -251,16 +184,17 @@ body{
 }
 .perso{
     width: 40%;
-    position: absolute; bottom: 40%; left: 80%;
+    position: absolute; bottom: 30%; left: 80%;
 }
 .can{
     width: 90%;
-    position: absolute; bottom: 18%; left: 50%;
+    position: absolute; bottom: 10%; left: 46%;
+    transform: rotate(7deg);
 
 }
 .pamplemousse{
     width: 30%;
-    position: absolute; bottom: 20%; left: 0%;
+    position: absolute; top: 110%; left: 0%;
     z-index: 10;
 }
 .flamme{
@@ -275,17 +209,17 @@ body{
 }
 .tee{
     min-width: 100%;
-    position: absolute; bottom: 8%; left: -24%;
+    position: absolute; top: 22%; left: -24%;
     margin: 0;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 0%;
-    z-index: 4;
+    z-index: 6;
 }
 .tee2{
     width: 70%;
-    position: absolute; bottom: 10%; left: 0%;
+    position: absolute; top: 100%; left: 0%;
     z-index: 10;
 }
 .origami{
@@ -313,7 +247,7 @@ body{
     z-index: 10;
 }
 .phone{
-    position: absolute; bottom: 8%; left: -34%;
+    position: absolute; top: 90%; left: -25%;
     margin: 0;
     width: 80%;
     margin-left: 25%;
@@ -324,12 +258,22 @@ body{
 .blackcover3{
     width: 80%;
     height: 50.5%;
-    position: absolute; bottom: 35%; left: 15%;
+    position: absolute; bottom: 35%; left: 17%;
     background: linear-gradient(to bottom right, rgba(255,255,255,.4), rgba(255,255,255,0));
     backdrop-filter: blur(2px);
     border-radius: 20px;
     border: white 0.5px solid;
-    z-index: 2;
+    z-index: 5;
+}
+.blackcover3bis{
+    width: 80%;
+    height: 50.5%;
+    position: absolute; top: 130%; left: 17%;
+    background: linear-gradient(to bottom right, rgba(255,255,255,.4), rgba(255,255,255,0));
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    border: white 0.5px solid;
+    z-index: 5;
 }
 .containtextVideo2{
     width: 25%;
@@ -343,7 +287,7 @@ body{
     background-image: url(../images/accueil/fond.jpg);
     height: 100vh;
     width: 100vw;
-    position: absolute; top: 300vh;
+    position: absolute; top: 320vh;
     z-index: 2;
 }
 /*div 5*/
@@ -351,7 +295,7 @@ body{
     background-image: url(../images/accueil/fond.jpg);
     height: 100vh;
     width: 100vw;
-    position: absolute; top: 400vh;
+    position: absolute; top: 420vh;
     z-index: 2;
 }
 /*div 6*/
@@ -359,20 +303,52 @@ body{
     background-image: url(../images/accueil/fond.jpg);
     height: 100vh;
     width: 100vw;
-    position: absolute; top: 500vh;
+    position: absolute; top: 520vh;
     z-index: 2;
     margin: 0;
 }
 
 /* div 7*/
 .sept{
-    /*background-color: #c9c9c9;*/
     background-image: url(../images/accueil/fond.jpg);
     height: 100vh;
     width: 100vw;
-    position: absolute; top: 600vh;
+    position: absolute; top: 620vh;
+    z-index: 2;
+    display: block;
+}
+.haut{
+    width: 100%;
+    position: absolute; top: 0%;
+}
+.bas{
+    width: 100%;
+    position: absolute; bottom: 0%;
+}
+.presentation{
+    width: 50%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.qui{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 5%;
+    color: #DEFF06;
+}
+
+/* div 7*/
+.huit{
+    background-image: url(../images/accueil/fond.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 720vh;
     z-index: 2;
 }
+
 
 
 .containMenu2{
@@ -414,7 +390,7 @@ body{
 .blackCover{
     width: 60%;
     height: 60%;
-    position: absolute; top: 30%; left: 20.5%;
+    position: absolute; bottom: 20%; left: 20.5%;
     background: linear-gradient(to bottom right, rgba(255,255,255,.4), rgba(255,255,255,0));
     backdrop-filter: blur(2px);
     border-radius: 20px;
@@ -615,6 +591,7 @@ a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 1.25vw;
+    text-align: left;
 }
 .date{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -625,6 +602,8 @@ a{
     background-color: #DEFF06;
     float: left;
     border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .regarder{
     color: white;
