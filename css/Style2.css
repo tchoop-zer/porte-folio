@@ -1,0 +1,387 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/*div Une*/
+.un{
+    background-color: #c9c9c9;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+.google{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 11vw;
+    margin: 0;
+    color: #c9c9c9;
+    position: absolute; top: 15%; right: 10%;
+    -webkit-text-stroke: 1px  rgb(87, 87, 87);
+}
+.sketchup{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 11vw;
+    font-weight: normal;
+    margin: 0;
+    position: absolute; top: 43%; right: 20%;
+    color: ;
+}
+.rotate{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: rotate(-90deg);
+    font-size: 2vw;
+    position: absolute; top: 15%; right: 91%;
+    margin: 0;
+    position: fixed;
+    z-index: 4;
+}
+
+
+
+
+/*exemples de réalisations*/
+.panneaux{
+    display: flex;
+    height: 70%;
+    width: 60%;
+    position: absolute; bottom: 50%; right: 5%;
+}
+.panneau1{
+    width: 35%;
+    height: 90%;
+    margin-right: 10%;
+    background-color: #c9c9c9;
+    border-radius: 15px;
+    margin: 5%;
+    z-index: 2;
+    position: absolute; top: 0%; left: 0%;
+}
+.panneau1light{
+    width: 35%;
+    height: 90%;
+    margin-right: 10%;
+    background-color: #e3e4e3;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+    border-radius: 15px;
+    margin: 5%;
+    position: absolute; top: -10px; left: -10px;
+}
+.panneau1dark{
+    width: 35%;
+    height: 90%;
+    margin-right: 10%;
+    background-color: #adacac;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+    border-radius: 15px;
+    margin: 5%;
+    position: absolute; top: 10px; left: 10px;
+}
+
+.panneau2{
+    width: 35%;
+    height: 90%;
+    margin-right: 10%;
+    background-color: #c9c9c9;
+    border-radius: 15px;
+    margin: 5%;
+    z-index: 2;
+    position: absolute; top: 0%; left: 45%;
+}
+.panneau2light{
+    width: 35%;
+    height: 90%;
+    margin-right: 10%;
+    background-color: #e3e4e3;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+    border-radius: 15px;
+    margin: 5%;
+    position: absolute; top: -10px; left: 44%;
+}
+.panneau2dark{
+    width: 35%;
+    height: 90%;
+    margin-right: 10%;
+    background-color: #adacac;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+    border-radius: 15px;
+    margin: 5%;
+    position: absolute; top: 10px; left: 46%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*fin d'exmples*/
+
+.suite{
+    width: 105vw;
+    position: absolute; bottom: 0%; right: 1%;
+    margin: 0;
+}
+
+/*fin*/
+/*deuxième div*/
+.deux{
+    background-color: #c9c9c9;
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 100vh;
+}
+/*troisième div*/
+.trois{
+    background-color: #c9c9c9;
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 200vh;
+}
+/*quatrième div*/
+.quatres{
+    background-color: #c9c9c9;
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 300vh;
+}
+/*cinquième div*/
+.cinq{
+    background-color: #c9c9c9;
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 400vh;
+}
+/*sixième div*/
+.six{
+    background-color: #c9c9c9;
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 500vh;
+}
+.panneaux2{
+/*    display: flex;
+    border: black 1px solid;
+    height: 50%;
+    width: 60%;
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+/*panneaux du bas*/
+.panneau1bis{
+    width: 20%;
+    height: 60%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #c9c9c9;
+    border-radius: 15px;
+    z-index: 2;
+    position: absolute; top: 25%; left: 4%;
+}
+.panneau1bislight{
+    width: 20%;
+    height: 60%;
+    background-color: #e3e4e3;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: absolute; top: 24%; left: 3%;
+}
+.panneau1bisdark{
+    width: 20%;
+    height: 60%;
+    background-color: #adacac;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: absolute; top: 26%; left: 5%;
+}
+
+.panneau2bis{
+    width: 20%;
+    height: 60%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #c9c9c9;
+    border-radius: 15px;
+    z-index: 2;
+    position: absolute; top: 25%; left: 34%;
+
+}
+.panneau2bislight{
+    width: 20%;
+    height: 60%;
+    background-color: #e3e4e3;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: absolute; top: 24%; left: 33%;
+}
+.panneau2bisdark{
+    width: 20%;
+    height: 60%;
+    background-color: #adacac;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: absolute; top: 26%; left: 35%;
+}
+
+.panneau3bis{
+    width: 20%;
+    height: 60%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #c9c9c9;
+    border-radius: 15px;
+    z-index: 2;
+    position: absolute; top: 25%; left: 64%;
+}
+.panneau3bislight{
+    width: 20%;
+    height: 60%;
+    background-color: #e3e4e3;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: absolute; top: 24%; left: 63%;
+}
+.panneau3bisdark{
+    width: 20%;
+    height: 60%;
+    background-color: #adacac;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: absolute; top: 26%; left: 65%;
+}
+
+
+
+
+.visited{
+    width: 100vw;
+    position: absolute; top: 2%; 
+}
+
+.contain3{
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    position: absolute; top: 30%; right: 10%;
+}
+.contain4{
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    position: absolute; top: 20%; right: 12.5%;
+}
+.contain5{
+    width: 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    position: absolute; top: 20%; right: 15%;
+}
+
+  ::-webkit-scrollbar { 
+    width: 0px; 
+    background: transparent; /* make scrollbar transparent */ 
+} 
+
+/*________________________________________________________________*/
+
+.contact{
+    height: 90%;
+    position: absolute; top: 5%; right: 4%;
+    padding: 0;
+    margin: 0;
+}
+.back{
+    width: 1.5%;
+    position: absolute; top: 2%; left: 1%;
+    z-index: 2;
+}
+
+.panneau3{
+    display: block;
+    width: 45%;
+    height: 60%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #c9c9c9;
+    border-radius: 15px;
+    z-index: 2;
+    position: absolute; top: 21%; left: 4%;
+}
+.panneau3light{
+    width: 45%;
+    height: 60%;
+    background-color: #e3e4e3;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: absolute; top: 20%; left: 3%;
+}
+.panneau3dark{
+    width: 45%;
+    height: 60%;
+    background-color: #adacac;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: absolute; top: 22%; left: 5%;
+}
+
+.contenuContact{
+    width: 30%;
+    position: absolute; top: 12%; left: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;
+    text-align: left;
+    margin-right: 0 auto;
+    padding: 1%;
+    color: rgb(40, 40, 40);
+}
+
+.tchoop{
+    padding-top: 20px;
+    width: 20%;
+}
+
+.illu{
+    width: 50%;
+    position: absolute; top: 10%; left: 0%;
+}

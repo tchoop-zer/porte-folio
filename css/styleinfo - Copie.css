@@ -1,0 +1,301 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.fleche{
+    width: 2%;
+    position: absolute; top: 82.5%; left: 3%;
+}
+.un{
+    background-color: #c9c9c9;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    position: absolute;
+}
+.back{
+    width: 1.5%;
+    position: absolute; top: 2%; left: 1%;
+    z-index: 2;
+}
+.navBar{
+    position: fixed; top: 5%; left: 71%;
+    z-index: 10;
+    width: 30%;
+    display: inline;
+}
+.une{
+    display: inline;
+    margin-left: 15%;
+}
+.categorie{
+    display: inline;
+    margin-left: 15%;
+}
+.contact{
+    display: inline;
+    margin-left: 15%;
+}
+
+/*title*/
+.containTitle{
+    width: 40%;
+    position: absolute; top: 30%; left: 7%;
+}
+.decouvrez{
+    -webkit-text-stroke: 1px rgb(87, 87, 87);
+    color: #c9c9c9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6vw;
+    margin: 0;
+}
+.tout{
+    -webkit-text-stroke: 1px  rgb(87, 87, 87);
+    color: #c9c9c9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6vw;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.titre{
+    width: 90%;
+    position: absolute; top: 17%; left: 12%;
+}
+/*fin*/
+.info{
+    width: 25%;
+    position: absolute; top: 15%; right: 10%;
+}
+
+
+.deux{
+    background-color: #c9c9c9;
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 100vh;
+}
+.cate{
+    width: 40%;
+    position: absolute; top: 12%;
+}
+.line{
+    width: 25%;
+    position: absolute; top: 25%; right: -2%;
+    transform: rotate(30deg)
+}
+.line2{
+    width: 35%;
+    position: absolute; top: 74%; right: 85%;
+    transform: rotate(-30deg)
+}
+.line3{
+    width: 15%;
+    position: absolute; top: 60%; right: 0%;
+}
+.square{
+ width: 10%;
+ position: absolute; right: 10%; top: 0%;
+}
+.square2{
+    width: 25%;
+    position: absolute; left: 27%; top: 120%;
+    z-index: 1;
+}
+.square3{
+    width: 5%;
+    position: absolute; right: 20%; top: 35%;
+    z-index: 1;
+}
+.circle{
+    position: absolute; top: 90%; left: 6%;
+    width: 5%;
+    z-index: 3;
+}
+.circle2{
+    width: 15%;
+    position: absolute; top: 120%; left: -5%;
+    z-index: 3;
+}
+.fond{
+    width: 90%;
+    position: absolute; top: 0%; right: 15%;
+    z-index: 2;
+}
+
+/*container*/
+
+.containMenu{
+    width: 70%;
+    height: 100%;
+    position: absolute;bottom: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #c9c9c9;
+    border-radius: 25px;
+    z-index: 4;
+}
+.lightcontainMenu{
+    width: 70%;
+    height: 100%;
+    border: black 1px solid;
+    position: absolute;bottom: 52%; left: 14%;
+    background-color: #e3e4e3;
+    border-radius: 25px;
+    z-index: 3;
+    -webkit-filter: blur(10px);
+}
+.darkcontainMenu{
+    width: 70%;
+    height: 100%;
+    border: black 1px solid;
+    position: absolute;bottom: 48%; left: 16%;
+    background-color: #adacac;
+    border-radius: 25px;
+    z-index: 3;
+    -webkit-filter: blur(10px);
+}
+/*fin*/
+
+.trois{
+    background-color: #c9c9c9;
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 200vh;
+    display: block;
+}
+
+/*première ligne*/
+.firstligne{
+    height: 30%;
+    width: 100%;
+}
+.maillot{
+
+}
+:hover.maillot{
+    transition: ease-out 2s;
+    background-color: #DEFF06;
+}
+.logo{
+    
+}
+:hover.logo{
+    transition: ease-out 2s;
+    background-color: #DEFF06;
+    color: black;
+}
+.affiche{
+  
+}
+:hover.affiche{
+    transition: ease-out 2s;
+    background-color: #DEFF06;
+    color: black;
+}
+/*seconde ligne*/
+
+.secondline{
+    margin-top: 3%;
+    height: 39%;
+    width: 100%;
+}
+.mockup{
+
+}
+:hover.mockup{
+    transition: ease-out 2s;
+    background-color: #DEFF06;
+}
+.wallpaper{
+
+}
+:hover.wallpaper{
+    transition: ease-out 2s;
+    background-color: #DEFF06;
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+:hover.illustration{
+    transition: ease-out 2s;
+    background-color: #DEFF06;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.maillotTitle{
+    position: relative; top: 42%;
+    -webkit-text-stroke: 1px black;
+    color: #c9c9c9;
+}
+.logoTitle{
+    position: relative; top: 42%;
+    -webkit-text-stroke: 1px black;
+    color: #c9c9c9;
+}
+.afficheTitle{
+    position: relative; top: 42%;
+    -webkit-text-stroke: 1px black;
+    color: #c9c9c9;
+}
+.IllustrationTitle{
+    position: relative; top: 45%;
+    -webkit-text-stroke: 1px black;
+    color: #c9c9c9;
+}
+.wallpaperTitle{
+    position: relative; top: 40%;
+    -webkit-text-stroke: 1px black;
+    color: #c9c9c9;
+}
+.mockupTitle{
+    position: relative; top: 38%;
+    -webkit-text-stroke: 1px black;
+    color: #c9c9c9;
+}
+
+
+
+/* teeeeeeeeeeeeeeeeeeeest */
+
+.container{
+    height: 100%;
+}
+.size1{
+    height: 40%;
+}
+.size2{
+    height: 60%;
+}
+.plein{
+    height: 100%;
+}
+
+.miplein{
+    height: 50%;
+}
+.borderi{
+    border: black solid 1px;
+    border-radius: 20px;
+}
+
+.contain{
+    width: 70%;
+    height: 100%;
+    position: absolute; bottom: 50%; left: 15%;
+    background-color: #c9c9c9;
+    border-radius: 25px;
+    z-index: 4;
+}

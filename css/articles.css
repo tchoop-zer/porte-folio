@@ -1,0 +1,414 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    display: grid inline-grid;
+    overflow-x: hidden;
+    background-color: #c9c9c9;
+}
+/*div Une*/
+.un{
+    background-color: #c9c9c9;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+.back{
+  width: 1.5%;
+  position: absolute; top: 2%; left: 1%;
+  z-index: 2;
+}
+.tchoop{
+    margin-left: 47%;
+    margin-right: 47%;
+    width: 5%;
+    position: absolute; top: 4%;
+}
+.wrapper {
+    width: 70%;
+    height: 130%;
+    position: absolute; bottom: 56%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    z-index: 2;
+  }
+
+/*colonne 1 ligne 1*/
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .kobe{
+    width: 65%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  .paname{
+      width: 52%;
+      padding: 20px;
+  }
+ .KMF{
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+ }
+ .dixmot{
+    width: 65%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .galdiator{
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+ }
+ .addicted{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+/*colonne 2 ligne 1*/
+ .two { 
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .rewind{
+    width: 65%;
+    padding: 25px;
+  }
+  .iron{
+    width: 47%;
+    padding: 20px;
+  }
+.SD{
+    width: 65%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.plp{
+  width: 90%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.canleffe{
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+/*colonne 3 ligne 1*/
+  .three {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .into{
+    width: 65%;
+    padding: 25px;
+  }
+  .ovo{
+    width: 50%;
+    padding: 20px;
+  }
+  .LF{
+    width: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mains{
+    width: 80%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .barre{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  /*colonne 1 ligne 2*/
+  .four {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  /*colonne 2 ligne 2*/
+  .five {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  /*colonne 3 ligne 2*/
+  .six {
+    grid-column: 3;
+    grid-row: 2;
+  }
+/*colonne 3 ligne 1*/
+  .one2 {
+    grid-column: 1;
+    grid-row: 3;
+
+  }
+  .gucci{
+    width: 51%;
+    padding: 20px;
+  }
+  .sixlogo{
+    width: 55%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .inception{
+    width: 65%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  .rodman{
+    width: 80%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+  }
+  .LV{
+    width: 120%;
+    position: relative;right: 15%;
+
+  }
+/*colonne 2 ligne 3*/
+  .two2 { 
+    grid-column: 2;
+    grid-row: 3;
+
+  }
+  .pirate{
+    width: 53%;
+    padding: 20px;
+  }
+  .LBJ{
+    width: 65%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .interstellar{
+    width: 65%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  .lunette{
+    width: 75%;
+    padding-top: 45px;
+    padding-bottom: 35px;
+  }
+  .B2O{
+    width: 75%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+/*colonne 3 ligne 3*/
+  .three2 {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .lacoste{
+    width: 51%;
+    padding: 20px;
+  }
+  .lilwayne{
+    width: 60%;
+    padding: 20px;
+  }
+  /*colonne 1 ligne 4*/
+  .four2 {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  /*colonne 2 ligne 4*/
+  .five2 {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  /*colonne 3 ligne 4*/
+  .six2 {
+    grid-column: 3;
+    grid-row: 4;
+  }
+
+
+
+
+
+
+
+
+
+/*colone 1 ligne 5*/
+  .one3 {
+    grid-column: 1;
+    grid-row: 5;
+
+  }
+  .Y2X{
+    width: 75%;
+    padding-top: 90px;
+  }
+/*colonne 2 ligne 5*/
+  .two3 { 
+    grid-column: 2;
+    grid-row: 5;
+  }
+  .expo{
+    width: 75%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .origami{
+    width: 75%;
+    padding-top: 90px;
+  }
+
+/*colonne 3 ligne 5*/
+  .three3 {
+    grid-column: 3;
+    grid-row: 5;
+  }
+  .foret{
+    width: 60%;
+    padding: 20px;
+  }
+  /*colonne 1 ligne 6*/
+  .four3 {
+    grid-column: 1;
+    grid-row: 6;
+  }
+  /*colonne 2 ligne 6*/
+  .five3 {
+    grid-column: 2;
+    grid-row: 6;
+  }
+  /*colonne 3 ligne 6*/
+  .six3 {
+    grid-column: 3;
+    grid-row: 6;
+  }
+  
+  h1{
+    width: 110%;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.48vw;
+    text-align: left;
+    margin-right: 0 auto;
+    padding: 0;
+    color: rgb(40, 40, 40);
+  }
+  p{
+    width: 90%;
+    font-weight: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    text-align: left;
+    padding: 0;
+    color: rgb(40, 40, 40);
+  }
+
+  .deux{
+    background-color: #c9c9c9;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    position: absolute; top: 100vh;
+}
+.trois{
+    background-color: black;
+    height: 30vh;
+    width: 100vw;
+    display: block;
+    position: absolute; top: 270vh;
+}
+
+
+.fond{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+
+.panneau{
+    height: 92%;
+    width: 90%;
+    background-color: #c9c9c9;
+    border-radius: 20px;
+    margin: 4%;
+    z-index: 3;
+    float: left;
+    position: relative; bottom: 92%;
+    display: inline-block;
+}
+.panneaulight{
+    height: 92%;
+    width: 90%;
+    background-color: #e3e4e3;
+    border-radius: 20px;
+    -webkit-filter: blur(10px);
+    z-index: 2;
+    margin-top: 0%;
+    margin-left: 0%;
+    float: left;
+    position: relative; top: 0%; left: 0%;
+}
+.panneaudark{
+    height: 92%;
+    width: 90%;
+    background-color: #adacac;
+    border-radius: 20px;
+    -webkit-filter: blur(10px);
+    z-index: 2;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    position: relative; top: 7%; left: 7%;
+}
+.panneau2{
+    height: 92%;
+    width: 90%;
+    background-color: #c9c9c9;
+    border-radius: 20px;
+    margin: 4%;
+    z-index: 3;
+    float: left;
+    position: relative; bottom: 92%;
+}
+.panneaulight2{
+    height: 92%;
+    width: 90%;
+    background-color: #e3e4e3;
+    border-radius: 20px;
+    -webkit-filter: blur(10px);
+    z-index: 2;
+    margin-top: 0%;
+    margin-left: 0%;
+    float: left;
+    position: relative; top: 0%; left: 0%;
+}
+.panneaudark2{
+    min-height: 92%;
+    min-width: 90%;
+    background-color: #adacac;
+    border-radius: 20px;
+    -webkit-filter: blur(10px);
+    z-index: 2;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    position: relative; top: 7%; left: 7%;
+}
+.contain{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    /*background-image: url('fond_div.png');
+    background-size: cover;*/
+}
+

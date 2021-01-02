@@ -1,0 +1,648 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.navBar{
+    position: fixed; top: 5%; left: 71%;
+    z-index: 10;
+    width: 30%;
+    display: inline;
+}
+.une{
+    display: inline;
+    margin-left: 15%;
+}
+.categorie{
+    display: inline;
+    margin-left: 15%;
+}
+.contact{
+    display: inline;
+    margin-left: 15%;
+}
+
+/*div Une*/
+.un{
+    /*background-color: #c9c9c9;*/
+    background-image: url(../images/accueil/fond.jpg);
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    /*transition: all ease-in 0.4s;*/
+    z-index: 2;
+}
+
+
+
+/*.shadow{
+    background-color: rgb(20, 20, 20);
+    height: 100vh;
+    width: 100vw;
+    position: absolute; left: 6px;
+    -webkit-filter: blur(10px);
+    transition: all ease-in 0.4s;
+    z-index: 1;
+}
+.burger{
+    width: 1.5%;
+    position: absolute; top: 2%; right: 2%;
+    z-index: 10;
+}
+.unbis{
+    background-color: #DEFF06;
+    height: 100vh;
+    width: 25vw;
+    display: block; 
+    position: absolute; right: 0%;
+}
+.side1{
+    margin-left: 10%;
+}
+.side2{
+    margin-top: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2.5vw;
+}
+.tete{
+    width: 30%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.lulu{
+    display: inline-block;
+    margin-bottom: 5%;
+}
+.side3{
+    width: 60%;
+    margin-left: 18%;
+    margin-right: 22%;
+    position: absolute; bottom: 15%;
+    display: inline-block;
+}
+.points{
+    width: 35%;
+}
+.points1{
+    width: 35%;
+    position: absolute; left: 32%;
+}
+.points2{
+    width: 35%;
+    position: absolute; left: 65%;
+}
+.side4{
+    width: 80%;
+    margin-left: 10%;
+    position: absolute; bottom: 0%;
+    
+}
+.boutton{
+    margin: 0%;
+}
+.side{
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.75vw;
+}
+.sidetext{
+    color: white;
+}
+.border{
+    border-radius: 20px;
+}
+.translate{
+    transform: translate(-25vw);
+    transition: all ease-in 0.4s;
+}*/
+
+/**menu**/
+.containMenu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    position: relative; top: 30%;
+}
+.liste{
+    padding: 0;
+    margin: 0;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Italiana', serif;  
+    font-family: 'Prata', serif;
+    font-family: 'Caudex', serif;
+    font-family: 'Cormorant Unicase', serif;*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.line{
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    z-index: 4;
+}
+.titre{
+    position: absolute; top: 0px;
+    display: block;
+    font-size: 10vw;
+    text-align: center;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    transform: translate(80px);
+    /*mix-blend-mode: difference;
+    mix-blend-mode: difference;*/
+    z-index: 10;
+}
+.sous-titre{
+    display: block;
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 0px;
+    font-family: impact;
+    color: black;
+    z-index: 10;
+}
+
+.six{
+    margin-left: 30%;
+    margin-right: 50%;
+    padding: 0;
+    width: 40%;
+    position: absolute;top: 0%;
+    z-index: 2;
+    /*filter: invert(100%);*/
+}
+
+
+/**fin**/
+
+.fleche{
+    width: 2%;
+    position: absolute; top: 82.5%; left: 3%;
+}
+
+/**div image**/
+.containMenu3{
+    height: 20%;
+}
+.ladj{
+    width: 25%;
+    position: absolute; bottom: 80.5%; right: 1.5%;
+    transition: all ease-in 0.4s;
+    z-index: 4;
+}
+.ladj2{
+    width: 25%;
+    position: absolute; bottom: 80.5%; right: 1.5%;
+    transition: all ease-in 0.4s;
+    z-index: 4;
+}
+.black{
+    background-color: rgba(77, 77, 77, 0.5);
+    position: absolute; bottom: 82.5%; right: 3.5%;
+    width: 25vw;
+    height: 40vh;
+}
+.blackCover2{
+    width: 26%;
+    height: 30.5%;
+    position: absolute; bottom: 86%; right: 3.5%;
+    background: linear-gradient(to bottom right, rgba(255,255,255,.4), rgba(255,255,255,0));
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    border: white 0.5px solid;
+    transition: all ease-in 0.4s;
+    z-index: 5;
+}
+/**fin**/
+
+/*deux*/
+.deux{
+    background-image: url(../images/accueil/fond.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 100vh;
+    z-index: 2;
+}
+/*flamme*/
+.trois{
+    background-image: url(../images/accueil/fond.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 200vh;
+    z-index: 2;
+}
+.containtrois{
+    width: 40%;
+    height: 80%;
+    position: absolute; left: 7%; top: 10%;
+    display: block;
+}
+.perso{
+    width: 40%;
+    position: absolute; bottom: 40%; left: 80%;
+}
+.can{
+    width: 90%;
+    position: absolute; bottom: 18%; left: 50%;
+
+}
+.pamplemousse{
+    width: 30%;
+    position: absolute; bottom: 20%; left: 0%;
+    z-index: 10;
+}
+.flamme{
+    min-width: 120%;
+    position: absolute; bottom: 8%; left: -34%;
+    margin: 0;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0%;
+    z-index: 4;
+}
+.tee{
+    min-width: 100%;
+    position: absolute; bottom: 8%; left: -24%;
+    margin: 0;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0%;
+    z-index: 4;
+}
+.tee2{
+    width: 70%;
+    position: absolute; bottom: 10%; left: 0%;
+    z-index: 10;
+}
+.origami{
+    font-size: 8vw;
+    position: absolute; bottom: 12%; left: 50%;
+    -webkit-text-stroke: 1px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: rotate(-90deg);
+    color: #c9c9c9;
+    z-index: 2;
+}
+.lbj{
+    width: 20%;
+    position: absolute; bottom: 70%; left: 80%;
+    z-index: 1;
+}
+.shakespeare{
+    width: 40%;
+    position: absolute; top: 0%; left: -10%;
+    z-index: 1;
+}
+.tarantino{
+    width: 30%;
+    position: absolute; top: 30%; left: 50%;
+    z-index: 10;
+}
+.phone{
+    position: absolute; bottom: 8%; left: -34%;
+    margin: 0;
+    width: 80%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0%;
+    z-index: 5;
+}
+.blackcover3{
+    width: 80%;
+    height: 50.5%;
+    position: absolute; bottom: 35%; left: 15%;
+    background: linear-gradient(to bottom right, rgba(255,255,255,.4), rgba(255,255,255,0));
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    border: white 0.5px solid;
+    z-index: 2;
+}
+.containtextVideo2{
+    width: 25%;
+    height: 35%;
+    position: absolute; top: 25%; right: 15%;
+    z-index: 2;
+}
+
+/*div 4*/
+.quatre{
+    background-image: url(../images/accueil/fond.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 300vh;
+    z-index: 2;
+}
+/*div 5*/
+.cinq{
+    background-image: url(../images/accueil/fond.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 400vh;
+    z-index: 2;
+}
+/*div 6*/
+.six{
+    background-image: url(../images/accueil/fond.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 500vh;
+    z-index: 2;
+    margin: 0;
+}
+
+/* div 7*/
+.sept{
+    /*background-color: #c9c9c9;*/
+    background-image: url(../images/accueil/fond.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: absolute; top: 600vh;
+    z-index: 2;
+}
+
+
+.containMenu2{
+    width: 35%;
+    height: 90%;
+    position: absolute; top: 5%; left: 5%;
+}
+.decor{
+    width: 60%;
+    position: absolute; bottom: 0%; left: 10%;
+    float: left;
+    z-index: 2;
+}
+.menu{
+    /*font-family: 'Cormorant Unicase', serif;*/
+    position: absolute;top: 25%; left: 35%;
+    margin: 0;
+    font-size: 13vw;
+    -webkit-text-stroke: 2px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: rotate(-90deg);
+    z-index: 1;
+    color: #c9c9c9;
+}
+.pulp{
+    width: 50%;
+    position: absolute; top: 75%; left: -5%;
+}
+.pulp2{
+    width: 70%;
+    position: absolute; top: 47.75%; left: -5%;
+    transform: rotate(-90deg);
+}
+.pulp3{
+    width: 70%;
+    position: absolute; top: 52.75%; left: -10%;
+    transform: rotate(-90deg);
+}
+.blackCover{
+    width: 60%;
+    height: 60%;
+    position: absolute; top: 30%; left: 20.5%;
+    background: linear-gradient(to bottom right, rgba(255,255,255,.4), rgba(255,255,255,0));
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    border: white 0.5px solid;
+    transition: all ease-in 0.4s;
+    z-index: 4;
+}
+/*liste des rubriques*/
+.projet{
+    color: rgb(45, 45, 45);
+    font-size: 1.8vw;
+    position: absolute; top: 28%; right: 40%;
+    font-family: impact;
+}
+.menuText{
+    list-style: none;
+    position: absolute; top: 35%; right: 25%;
+    font-size: 2.65vw;
+}
+li{
+   margin-bottom: 20px; 
+}
+/*fin*/
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*-------------------------------------------------------------------*/
+
+.film{
+    height: 100%;
+    width: 55%;
+    position: absolute; top: 0%; left: 50%;
+    margin: 0;
+    background-color: #DEFF06;
+    box-shadow: -0.5em 0 .4em grey;
+    border-radius: 50px;
+    z-index: 3;
+}
+.ordi{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.tel{
+    position: absolute; top: 32%; right: 50%;
+    width: 60%;
+}
+.back{
+    width: 8%;
+    position: absolute; top: 2%; left: 4%;
+    z-index: 2;
+}
+.TitreFilm{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;top: 16%; left: 15%;
+    margin: 0;
+    font-size: 24vw;
+    -webkit-text-stroke: 2px black;
+    transform: rotate(-90deg);
+    z-index: 1;
+    color: #c9c9c9;
+}
+
+/*contain video*/
+.containVideo{
+    display: block;
+    position: absolute; 
+    width: 20%;
+    height: 100%;
+}
+
+.videos{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22%;
+    width: 45%;
+    height: 85%;
+    overflow: hidden;
+}
+.boiteVideo{
+    width: 100%;
+    height: 20%;
+    border: 1px solid #c9c9c9;
+}
+.video{
+    width: 70%;
+    min-width: 50%;
+    height: 70%;
+    min-height: 50%;
+    background-color: #adadad;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding-top: 5%;
+    border-radius: 10px;
+    box-shadow: 0.5em 0 .5em grey;
+}
+:hover.video{
+    margin-top: 0;
+    transition: all 0.5s ease-out;
+    width: 80%;
+    height: 80%;
+}
+
+.VideoSelect{
+    
+    min-width: 50%;    
+    min-height: 50%;
+    background-color: #DEFF06;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;    
+    padding-top: 5%;
+    border-radius: 10px;
+    box-shadow: 0.5em 0 .5em grey;
+
+    margin-top: 0;
+    transition: all 0.5s ease-out;
+    width: 80%;
+    height: 80%;
+}
+/*img des vidéos*/
+.cv{
+    width: 65%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3.5%;
+}
+.esis{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 18%; 
+}
+.bon{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25%; 
+}
+.pc{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%; 
+}
+.turnup{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%; 
+}
+.flammeIco{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0%;  
+}
+.kmf{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;  
+}
+.lenez{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%; 
+}
+.kulty{
+    width: 60%;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 5%;
+}
+/*fin*/
+/*fin de la boîte video*/
+
+/*text descriptif*/
+.containtextVideo{
+
+    width: 25%;
+    height: 35%;
+    position: absolute; top: 32%; left: 20%;
+    z-index: 2;
+}
+.titreVideo{
+    font-size: 3vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+}
+.textVideo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.25vw;
+}
+.date{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+}
+/*bouton*/
+.button{
+    background-color: #DEFF06;
+    float: left;
+    border-radius: 10px;
+}
+.regarder{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1vw;
+}
+/*fin*/
+
+/*---------------------------------------------------------------------*/
+.TitreWeb{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;top: 32%; left: 20%;
+    margin: 0;
+    font-size: 24vw;
+    -webkit-text-stroke: 2px black;
+    transform: rotate(-90deg);
+    z-index: 1;
+    color: #c9c9c9;
+}
