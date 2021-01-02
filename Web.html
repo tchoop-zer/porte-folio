@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web design</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="un">
+        <div class="navBar">
+            <a href="index.html#deux"><p class="une">à la une</p></a>
+            <a href="index.html#sept"><p class="categorie">catégories</p></a>
+            <a href="contact.html"><p class="contact">contact</p></a>
+        </div>
+        <div class="film">
+            <img class="ordi" id="ordi" src="images/films/odricv.png">
+            <img class="tel" id="tel" src="">
+        </div> 
+        <h6 class="TitreWeb">WEB</h6>
+            <div class="containtextVideo">
+                <h2 id="titreVideo" class="titreVideo"></h2>
+                <p id="textVideo" class="textVideo"></p>
+                <p id="date" class="date"></p>
+                <a id="link" href="#"><div class="button"><p class="regarder">REGARDER</p></div></a>
+            </div>
+        <div class="containVideo">
+        <a href="index.html"><img class="back" src="images\accueil\backs.png"></a>
+            <div class="videos">
+                <div class="boiteVideo">
+                    <a href="#" onclick="f_titre(1); return false;"><div class="video" id="cv"><img src="images/films/cv.png" class="cv"></div></a>
+                </div>
+                <div class="boiteVideo">
+                    <a href="#" onclick="f_titre(2); return false;"><div class="video" id="pc"><img src="images/films/logo_pc.png" class="pc"></div></a>
+                </div>
+                <div class="boiteVideo">
+                    <a href="#" onclick="f_titre(3); return false;"><div class="video" id="kmf"><img src="images/films/kmf.png" class="kmf"></div></a>
+                </div>
+                <div class="boiteVideo">
+                    <a href="#" onclick="f_titre(4); return false;"><div class="video" id="lenez"><img src="images/films/lenez.png" class="lenez"></div></a>
+                </div>
+                <div class="boiteVideo">
+                    <a href="#" onclick="f_titre(5); return false;"><div class="video" id="kulty"><img src="images/films/kulty.png" class="kulty"></div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    function f_titre(numero){
+
+        switch (numero) {
+            case 1:
+                text="Mon Cv numérique";
+                sousText="Ce Site internet à été réalisé au cours de ma première année de MMI, dans le cadre d'un projet de fin d'année. Codé entièrement par mes soins, j'espère qu'il vous plaiera.";
+                date="2019/2020";
+                image="images/films/odricv.png";
+                images="";
+                f_selectionneMenu("cv");
+                break;
+            case 2:
+                text="Mon portrait Chinois";
+                sousText="Le portrait chinois est un moyen de se présenter en évitant le côté solenel du CV. J'ai donc codé avec mes connaissances de première année ce projet qui m'a énormément appris."
+                date="2019/2020";
+                image="images/films/odriPortr.png";
+                images="";
+                f_selectionneMenu("pc");
+                break;
+            case 3:
+                text="Karine Marteau-Fassel";
+                sousText="J'ai réalisé ce site internet pour les besoins d'une avocate en manque de visibilité sur internet et souhaitant accroitre sa clientèle."
+                date="2020";
+                image="images/films/odrikmf.png";
+                images="";
+                f_selectionneMenu("kmf");
+                break;
+            case 4:
+                text="Le nez au vent";
+                sousText="Le site de la compagnie de théâtre à été une experience professionel très enrichissante. J'ai réalisé le site avec Wix.com mais avec un travail préalable sérieux."
+                date="2020";
+                link="https://lenezauvent.wixsite.com/saint-maur";
+                image="images/films/odrilenez.png";
+                images="";
+                f_selectionneMenu("lenez");
+                break;
+            case 5:
+                text="Kulty";
+                sousText="KUlty est un réseaux social développé en projet tutorée durant ma formaion MMI. Il porte sur les expositions temporaires à Paris et propose un service de partage et de répertoriage poussé. Elle est actuellement disponible sur le site Kulty-app.fr."
+                date="2020";
+                link="https://lenezauvent.wixsite.com/saint-maur";
+                image="images/films/odriKulty.png";
+                images="images/films/smartphone.png";
+                f_selectionneMenu("kulty");
+                break;
+        }
+        document.getElementById("titreVideo").textContent =text;
+        document.getElementById("textVideo").textContent =sousText;
+        document.getElementById("date").textContent =date;
+        document.getElementById("link").href =link;
+        document.getElementById("ordi").src = image;
+        document.getElementById("tel").src = images;
+    }
+    //Associé la clase videoSelect pour la dic idName et remise a à la classe video pour les autres
+    function f_selectionneMenu(idName) {
+        //Remise de la classe par défaut pour tous
+        document.getElementById("cv").className = "video";
+        document.getElementById("pc").className = "video";
+        document.getElementById("kmf").className = "video";
+        document.getElementById("lenez").className =  "video";
+        document.getElementById("kulty").className = "video";
+
+        //inti de la classe videoSelect pour celle cliqué
+        document.getElementById(idName).className = " VideoSelect";
+
+    }
+
+    f_titre(1);
+</script>
