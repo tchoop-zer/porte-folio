@@ -12,16 +12,33 @@
 <link href="https://fonts.googleapis.com/css2?family=Caudex&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Italiana&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<link rel="stylesheet" type="text/css" href="js/fullpage.css" />
+<link rel="stylesheet" type="text/css" href="css/fullpage-min.css" />
 </head>
 <body>
     <!--<div class="shadow"></div>-->
-    <div class="navBar">
-        <a href="#deux"><p class="une">à la une</p></a>
-        <a href="#sept"><p class="categorie">catégories</p></a>
+
+ <div class="navBar">
+        <a href="#firstPage"><p class="une">à la une</p></a>
+        <a href="#secondPage"><p class="categorie">catégories</p></a>
         <a href="contact.html"><p class="contact">contact</p></a>
-    </div>
-    <div class="un">
+
+
+        <ul id="menu">
+            <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First slide</a></li>
+            <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
+            <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+        </ul>
+
+</div>
+
+
+
+
+<div id="fullpage">
+   
+    <div class="un section active" id="section0">
         <div class="containMenu">
             <p class="titre">Lucas Fassel</p>
             <img class="line" src="images\accueil\line.png">
@@ -56,11 +73,11 @@
             <a href="www.lucas.ricohoho.fr"><img class="side4"src="images\accueil\boutton.png"></a>
         </div>
     </div>-->
-    <div class="deux" id="deux">
-    <div class="containtrois">
-        <img src="images/accueil/perso.png" class="perso">
-        <img src="images/films/odriflamme.png" class="flamme">
-    </div>
+    <div class="deux section " id="deux">
+        <div class="containtrois">
+            <img src="images/accueil/perso.png" class="perso">
+            <img src="images/films/odriflamme.png" class="flamme">
+        </div>
         <div class="containtextVideo2">
             <h2 class="titreVideo">La Flamme</h2>
             <p class="textVideo">Ce court-métrage d’animation à été réalisé par moi même dans le cadre d’un projet de fin d’année de MMI2. J’ai particulièrement soigné mon travail sur le scénario, ayant connu un drame dans ma famille lors de la réalisation, j’ai décidé de lui rendre hommage à travers ce projet. J'espère que cette animation lourde de sens vous plaira.</p>
@@ -68,12 +85,12 @@
             <a href="https://youtu.be/YIFZ1xVlWQs"><div class="button"><p class="regarder">REGARDER</p></div></a>
         </div>
     </div>
-    <div class="trois" id="trois">
-    <div class="containtrois">
-        <img src="images/accueil/can.png" class="can">
-        <img src="images/accueil/pamplemousse.png" class="pamplemousse">
-        <img src="images/films/odriflamme.png" class="flamme">
-    </div>
+    <div class="trois section " id="trois">
+        <div class="containtrois">
+            <img src="images/accueil/can.png" class="can">
+            <img src="images/accueil/pamplemousse.png" class="pamplemousse">
+            <img src="images/films/odriflamme.png" class="flamme">
+        </div>
         <!--<div class="blackcover4"></div>-->
         <div class="containtextVideo2">
             <h2 class="titreVideo">Publicité Guinness</h2>
@@ -82,11 +99,11 @@
             <a href="https://youtu.be/YIFZ1xVlWQs"><div class="button"><p class="regarder">REGARDER</p></div></a>
         </div>
     </div>
-    <div class="quatre" id="quatre">
-    <div class="containtrois">
-        <img src="images/films/odriKulty.png" class="flamme">
-        <img src="images/films/smartphone.png" class="phone">
-    </div>
+    <div class="quatre section" id="quatre">
+        <div class="containtrois">
+            <img src="images/films/odriKulty.png" class="flamme">
+            <img src="images/films/smartphone.png" class="phone">
+        </div>
         <div class="containtextVideo2">
             <h2 class="titreVideo">Kulty</h2>
             <p class="textVideo">KUlty est un réseaux social développé en projet tutorée durant ma formaion MMI. Il porte sur les expositions temporaires à Paris et propose un service de partage et de répertoriage poussé. Elle est actuellement disponible sur le site Kulty-app.fr.</p>
@@ -94,13 +111,13 @@
             <a href="https://youtu.be/YIFZ1xVlWQs"><div class="button"><p class="regarder">REGARDER</p></div></a>
         </div>
     </div>
-    <div class="cinq" id="cinq">
-    <div class="containtrois">
-        <img src="images/accueil/t-shirtOrigami.png" class="tee2">
-        <img src="images/accueil/t-shirtOrigami2.png" class="tee">
-        <p class="origami">ORIGAMI</p>
-        <div class="blackcover3"></div>
-    </div>
+    <div class="cinq section" id="cinq">
+        <div class="containtrois">
+            <img src="images/accueil/t-shirtOrigami.png" class="tee2">
+            <img src="images/accueil/t-shirtOrigami2.png" class="tee">
+            <p class="origami">ORIGAMI</p>
+            <div class="blackcover3"></div>
+        </div>
         <div class="containtextVideo2">
             <h2 class="titreVideo">Origami</h2>
             <p class="textVideo">Ce court-métrage d’animation à été réalisé par moi même dans le cadre d’un projet de fin d’année de MMI2. J’ai particulièrement soigné mon travail sur le scénario, ayant connu un drame dans ma famille lors de la réalisation, j’ai décidé de lui rendre hommage à travers ce projet. J'espère que cette animation lourde de sens vous plaira.</p>
@@ -108,14 +125,14 @@
             <a href="https://youtu.be/YIFZ1xVlWQs"><div class="button"><p class="regarder">REGARDER</p></div></a>
         </div>
     </div>
-    <div class="six" id="six">
-    <div class="containtrois">
-        <img src="images/films/odriPortr.png" class="flamme">
-        <img src="images/accueil/shakespeare.png" class="shakespeare">
-        <img src="images/accueil/lbjtl.png" class="lbj">
-        <img src="images/accueil/quentin-tarantino.png" class="tarantino">
-        <div class="blackcover3"></div>
-    </div>
+    <div class="six section" id="six">
+        <div class="containtrois">
+            <img src="images/films/odriPortr.png" class="flamme">
+            <img src="images/accueil/shakespeare.png" class="shakespeare">
+            <img src="images/accueil/lbjtl.png" class="lbj">
+            <img src="images/accueil/quentin-tarantino.png" class="tarantino">
+            <div class="blackcover3"></div>
+        </div>
         <div class="containtextVideo2">
             <h2 class="titreVideo">Mon Portrait Chinois</h2>
             <p class="textVideo">Ce court-métrage d’animation à été réalisé par moi même dans le cadre d’un projet de fin d’année de MMI2. J’ai particulièrement soigné mon travail sur le scénario, ayant connu un drame dans ma famille lors de la réalisation, j’ai décidé de lui rendre hommage à travers ce projet. J'espère que cette animation lourde de sens vous plaira.</p>
@@ -123,7 +140,7 @@
             <a href="https://youtu.be/YIFZ1xVlWQs"><div class="button"><p class="regarder">REGARDER</p></div></a>
         </div>
     </div>
-    <div class="sept" id="sept">
+    <div class="sept section" id="sept">
         <div class="containMenu2">
             <h1 class="menu">MENU</h1>
             <!--<img src="images\accueil\menu.png" class="decor">
@@ -151,7 +168,7 @@
             <!--<div class="black"></div>-->
         </div>
     </div>
-    
+ </div>   
 </body>
 </html>
 
@@ -173,4 +190,38 @@ $(".burger").click(function(){
         menu = 0
     }
 });
+</script>
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript">
+    //var myFullpage = new fullpage('#fullpage'
+    //, {
+    //    sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
+    //}
+    //);
+
+    var myFullpage = new fullpage('#fullpage', {
+        menu: '#menu',
+        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        slidesNavigation: true,
+        onLeave: function(origin, destination, direction){
+          if(destination.index === 2){
+             destination.item.classList.add('load-background');
+          }
+        }
+    });
+/*
+
+
+      new fullpage('#fullpage', {
+            anchors: ['firstPage', 'secondPage', '3rdPage', 'page4'],
+            navigationTooltips: ['fullPage', 'Open', 'Easy', 'Touch'],
+            css3: true,
+            scrollingSpeed: 1000,
+            navigation: true,
+            slidesNavigation: true,
+            responsiveHeight: 330,
+            controlArrows: false
+        });
+        */
 </script>
