@@ -13,9 +13,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Italiana&display=swap" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<link rel="stylesheet" type="text/css" href="css/scroll.css" />
+<!--
 <link rel="stylesheet" type="text/css" href="js/fullpage.css" />
 <link rel="stylesheet" type="text/css" href="css/fullpage-min.css" />
 
+<link rel="stylesheet" type="text/css" href="css/scroll.css" />
 </head>
 <body>
     <a href="#section0"><img src="images/accueil/logo lf black2.png" class="lf"></a>
@@ -26,8 +29,22 @@
         <a href="contact.html"><p class="contact">Contact</p></a>
     </div>
 
+<!--
+-->
 
 
+            <div class="MenuDot">
+                    <ul>
+                        <li class="navx"><a href="#un" class="menuy" id="menuXUn"><span class="dot"></span></a></li>
+                        <li class="navx"><a href="#deux" class="menuy" id="menuXDeux"><span class="dot"></span></a></li>
+                        <li class="navx"><a href="#trois" class="menuy" id="menuXTrois"><span class="dot"></span></a></li>
+                        <li class="navx"><a href="#quatre" class="menuy" id="menuXQuatre"><span class="dot"></span></a></li>
+                        <li class="navx"><a href="#cinq" class="menuy" id="menuXCinq"><span class="dot"></span></a></li>
+                        <li class="navx"><a href="#six" class="menuy" id="menuXSix"><span class="dot"></span></a></li>
+                    </ul>
+            </div>                                                    
+
+</div>
 
 <div id="fullpage">
    
@@ -159,8 +176,8 @@
 </html>
 
 <script src="js/rellax.min.js"></script>
-<script>
 
+<script>
  // Accepts any class name
  var rellax = new Rellax('.rellax');
  // Also can pass in optional settings block
@@ -197,4 +214,35 @@ $(".burger").click(function(){
 <script type="text/javascript" src="js/fullpage.js"></script>
 
 <script type="text/javascript">
+<<<<<<< .mine
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+ /*
+    var myFullpage = new fullpage('#fullpage', {
+        menu: '#menu',
+        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        slidesNavigation: true,
+        onLeave: function(origin, destination, direction){
+          if(destination.index === 2){
+             destination.item.classList.add('load-background');
+          }
+        }
+    });
+*/
+>>>>>>> .theirs
+console.log("hoho");
+</script>
+<script type="text/javascript" src="js/scroll.js"></script>
