@@ -7,9 +7,39 @@ body{
     overflow-x: hidden;
 }
 
+.navBar{
+    position: fixed; top: 5%; left: 50%;
+    z-index: 10;
+    width: 50%;
+    display: inline;
+    font-size: 1vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.une{
+    display: inline;
+    margin-left: 15%;
+}
+.propos{
+    display: inline;
+    margin-left: 15%;
+}
+.categorie{
+    display: inline;
+    margin-left: 15%;
+}
+.contact{
+    display: inline;
+    margin-left: 15%;
+}
+
 /*div Une*/
 .un{
-    background-color: #c9c9c9;
+    background-image: url(../images/accueil/fond.jpg);
+    /*background-color: #c9c9c9;*/
     height: 100vh;
     width: 100vw;
     display: block;
@@ -319,15 +349,15 @@ body{
 
 /*________________________________________________________________*/
 
-.contact{
-    height: 90%;
-    position: absolute; top: 5%; right: 4%;
+.contactimg{
+    height: 85%;
+    position: absolute; top: 7.5%; right: 4%;
     padding: 0;
     margin: 0;
 }
 .back{
-    width: 1.5%;
-    position: absolute; top: 2%; left: 1%;
+    width: 1.2%;
+    position: absolute; top: 5%; left: 2%;
     z-index: 2;
 }
 

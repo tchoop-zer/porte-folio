@@ -6,15 +6,28 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
+.lf{
+    width: 2.5%;
+    position: fixed; top: 5%; left: 2.5%;
+    z-index: 10;
+}
 .navBar{
     position: fixed; top: 5%; left: 50%;
     z-index: 10;
     width: 50%;
     display: inline;
+    font-size: 1vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .une{
     display: inline;
     margin-left: 15%;
+    /*background-color: lightgray;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;*/
 }
 .propos{
     display: inline;
@@ -42,20 +55,6 @@ body{
     z-index: 2;
 }
 
-.news{
-    background-image: url(../images/accueil/fond.jpg);
-    height: 20vh;
-    width: 100vw;
-    display: block;
-    position: absolute;
-    overflow: hidden;
-    position: absolute; top: 100vh;
-    /*transition: all ease-in 0.4s;*/
-    z-index: 2;
-}
-.AlaUne{
-    width: 100%;
-}
 /**menu**/
 .containMenu{
     display: block;
@@ -66,7 +65,7 @@ body{
 }
 .liste{
     padding: 0;
-    margin: 0;
+    margin-bottom: 20px;
     /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-family: 'Playfair Display', serif;
     font-family: 'Italiana', serif;  
@@ -165,7 +164,7 @@ body{
     background-image: url(../images/accueil/fond.jpg);
     height: 100vh;
     width: 100vw;
-    position: absolute; top: 120vh;
+    position: absolute; top: 100vh;
     z-index: 2;
 }
 /*flamme*/
@@ -173,7 +172,7 @@ body{
     background-image: url(../images/accueil/fond.jpg);
     height: 100vh;
     width: 100vw;
-    position: absolute; top: 220vh;
+    position: absolute; top: 200vh;
     z-index: 2;
 }
 .containtrois{
@@ -268,12 +267,12 @@ body{
 .blackcover3bis{
     width: 80%;
     height: 50.5%;
-    position: absolute; top: 130%; left: 17%;
+    position: absolute; top: 125%; left: 17%;
     background: linear-gradient(to bottom right, rgba(255,255,255,.4), rgba(255,255,255,0));
     backdrop-filter: blur(2px);
     border-radius: 20px;
     border: white 0.5px solid;
-    z-index: 5;
+    z-index: 2;
 }
 .containtextVideo2{
     width: 25%;
@@ -287,7 +286,7 @@ body{
     background-image: url(../images/accueil/fond.jpg);
     height: 100vh;
     width: 100vw;
-    position: absolute; top: 320vh;
+    position: absolute; top: 300vh;
     z-index: 2;
 }
 /*div 5*/
@@ -295,7 +294,7 @@ body{
     background-image: url(../images/accueil/fond.jpg);
     height: 100vh;
     width: 100vw;
-    position: absolute; top: 420vh;
+    position: absolute; top: 400vh;
     z-index: 2;
 }
 /*div 6*/
@@ -303,7 +302,7 @@ body{
     background-image: url(../images/accueil/fond.jpg);
     height: 100vh;
     width: 100vw;
-    position: absolute; top: 520vh;
+    position: absolute; top: 500vh;
     z-index: 2;
     margin: 0;
 }
@@ -313,17 +312,9 @@ body{
     background-image: url(../images/accueil/fond.jpg);
     height: 100vh;
     width: 100vw;
-    position: absolute; top: 620vh;
+    position: absolute; top: 600vh;
     z-index: 2;
     display: block;
-}
-.haut{
-    width: 100%;
-    position: absolute; top: 0%;
-}
-.bas{
-    width: 100%;
-    position: absolute; bottom: 0%;
 }
 .presentation{
     width: 50%;
@@ -336,8 +327,9 @@ body{
 }
 .qui{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     color: #DEFF06;
+    font-size: 3vw;
 }
 
 /* div 7*/
@@ -345,7 +337,7 @@ body{
     background-image: url(../images/accueil/fond.jpg);
     height: 100vh;
     width: 100vw;
-    position: absolute; top: 720vh;
+    position: absolute; top: 700vh;
     z-index: 2;
 }
 
@@ -389,8 +381,8 @@ body{
 }
 .blackCover{
     width: 60%;
-    height: 60%;
-    position: absolute; bottom: 20%; left: 20.5%;
+    height: 70%;
+    position: absolute; bottom: 10%; left: 20.5%;
     background: linear-gradient(to bottom right, rgba(255,255,255,.4), rgba(255,255,255,0));
     backdrop-filter: blur(2px);
     border-radius: 20px;
@@ -402,12 +394,12 @@ body{
 .projet{
     color: rgb(45, 45, 45);
     font-size: 1.8vw;
-    position: absolute; top: 28%; right: 40%;
+    position: absolute; top: 38%; right: 40%;
     font-family: impact;
 }
 .menuText{
     list-style: none;
-    position: absolute; top: 35%; right: 25%;
+    position: absolute; top: 45%; right: 25%;
     font-size: 2.65vw;
 }
 li{
@@ -442,8 +434,8 @@ a{
     width: 60%;
 }
 .back{
-    width: 8%;
-    position: absolute; top: 2%; left: 4%;
+    width: 6%;
+    position: absolute; top: 5%; left: 6%;
     z-index: 2;
 }
 .TitreFilm{
@@ -586,24 +578,40 @@ a{
     font-size: 3vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
+    text-align: left;
+    margin-bottom: 15px;
 }
 .textVideo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 1.25vw;
     text-align: left;
+    margin-bottom: 15px;
 }
 .date{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1vw;
+    text-align: left;
+    margin-bottom: 15px;
 }
 /*bouton*/
 .button{
     background-color: #DEFF06;
     float: left;
     border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button2{
+    background-color: #DEFF06;
+    float: left;
+    border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .regarder{
     color: white;

@@ -18,8 +18,8 @@ body{
     z-index: 1;
 }
 .back{
-  width: 1.5%;
-  position: absolute; top: 2%; left: 1%;
+  width: 1.2%;
+  position: absolute; top: 5%; left: 2%;
   z-index: 2;
 }
 .tchoop{
