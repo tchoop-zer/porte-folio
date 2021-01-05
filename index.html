@@ -17,7 +17,7 @@
 <!--
 <link rel="stylesheet" type="text/css" href="js/fullpage.css" />
 <link rel="stylesheet" type="text/css" href="css/fullpage-min.css" />
-
+-->
 <link rel="stylesheet" type="text/css" href="css/scroll.css" />
 </head>
 <body>
@@ -48,7 +48,7 @@
 
 <div id="fullpage">
    
-    <div class="un section active" id="section0">
+    <div class="un section active" id="un">
         
         <div class="containMenu">
             <p class="titre">Lucas Fassel</p>
@@ -176,73 +176,10 @@
 </html>
 
 <script src="js/rellax.min.js"></script>
-
-<script>
- // Accepts any class name
- var rellax = new Rellax('.rellax');
- // Also can pass in optional settings block
- /*
- var rellax = new Rellax('.rellax', {
-   speed: -2,
-   center: false,
-   wrapper: null,
-   round: true,
-   vertical: true,
-   horizontal: false
- });
- */
-
-var menu = 0
-
-$(".burger").click(function(){
-    if (menu == 0) {
-        $( ".un" ).addClass( "translate border" );
-        $( ".shadow").addClass( "translate");
-        $( ".blackCover2" ).addClass( "translate" );
-        $( ".ladj2" ).addClass( "translate" );
-        menu = 1
-    } else {
-        $( ".un" ).removeClass( "translate border" );
-        $( ".shadow").removeClass( "translate");
-        $( ".blackCover2" ).removeClass( "translate" );
-        $( ".ladj2" ).removeClass( "translate" );
-        menu = 0
-    }
-});
-</script>
-
-<script type="text/javascript" src="js/fullpage.js"></script>
-
-<script type="text/javascript">
-<<<<<<< .mine
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-=======
- /*
-    var myFullpage = new fullpage('#fullpage', {
-        menu: '#menu',
-        anchors: ['firstPage', 'secondPage', '3rdPage'],
-        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
-        slidesNavigation: true,
-        onLeave: function(origin, destination, direction){
-          if(destination.index === 2){
-             destination.item.classList.add('load-background');
-          }
-        }
-    });
-*/
->>>>>>> .theirs
-console.log("hoho");
-</script>
 <script type="text/javascript" src="js/scroll.js"></script>
+<script>
+ var rellax = new Rellax('.rellax');
+ var menuActif="x";
+ menuActive("menuXUn") ;
+</script>
+

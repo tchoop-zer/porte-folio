@@ -1,0 +1,32 @@
+<html><body>
+<style>
+    .inverted-bar {
+        position: relative;
+    }
+    
+    .inverted-bar:before,
+    .inverted-bar:after {
+        padding: 10px 0;
+        text-indent: 10px;
+        position: absolute;
+        white-space: nowrap;
+        overflow: hidden;
+        content: attr(data-content);
+    }
+    
+    .inverted-bar:before {
+        background-color: aqua;
+        color: red;
+        width: 100%;
+    }
+    
+    .inverted-bar:after {
+        background-color: red;
+        color: aqua;
+        width: 5%;
+    }
+
+</style>
+    <div class="inverted-bar" data-content="Lorem ipsum dolor sit amet"></div>
+</body>
+    </html>
